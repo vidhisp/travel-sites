@@ -8,3 +8,14 @@ img {
     height: auto;
 } 
 
+/*
+
+    * to select all the elements
+*/
+* {
+    box-sizing: border-box;
+}
+
+a{
+    color: $mainOrange;
+}

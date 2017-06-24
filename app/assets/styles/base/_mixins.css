@@ -15,3 +15,16 @@
         @mixin-content;
     }
 } 
+
+@define-mixin clearfix{
+    /*
+    
+    This will add all the contents after the main row div
+*/
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+}
