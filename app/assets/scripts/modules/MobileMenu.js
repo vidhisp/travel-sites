@@ -6,6 +6,7 @@ class MobileMenu{
         this.menuIcon = $(".site-header__menu-icon");
         this.menuContent = $(".site-header__menu-content");
         this.events();
+        console.log("hey");
     }
     
     events(){
