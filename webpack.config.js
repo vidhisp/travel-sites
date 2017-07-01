@@ -1,8 +1,11 @@
     module.exports = {
-        entry: "./app/assets/scripts/app.js", 
+        entry: {
+            App : "./app/assets/scripts/app.js",
+            Vendor : "./app/assets/scripts/vendor.js"
+        }, 
         output: {
             path: "/Users/vidhipatel/Desktop/projects/sites/travel-sites/app/templ/scripts",
-            filename : "app.js"
+            filename : "[name].js"
         },
 
         module: {
